@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card-container {
+  @apply max-w-full flex items-center justify-center h-screen mx-auto;
+}
