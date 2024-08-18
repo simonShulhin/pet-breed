@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Breed } from "../types";
+import type { Breed } from "../types";
 import BreedCard from "./BreedCard";
 
 const Breeds = ({ breeds }: { breeds: Breed[] }) => {

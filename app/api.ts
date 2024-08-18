@@ -1,4 +1,4 @@
-import { BreedFetchResponse, BreedType } from "./types";
+import type { BreedFetchResponse, BreedType } from "./types";
 
 export const BASE_DOG_URL = "https://api.thedogapi.com/v1";
 export const BASE_CAT_URL = "https://api.thecatapi.com/v1";

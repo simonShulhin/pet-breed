@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import { Breed } from "../types";
+import type { Breed } from "../types";
 
 const BreedCard = ({ name, image, id, type }: Breed) => {
   return (

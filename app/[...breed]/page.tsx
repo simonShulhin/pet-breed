@@ -1,6 +1,6 @@
 import React from "react";
 import { fetchBreedByTypeAndId } from "../api";
-import { Breed, BreedType } from "../types";
+import type { Breed, BreedType } from "../types";
 import Image from "next/image";
 
 const Breed = async ({ params }: { params: { breed: string[] } }) => {

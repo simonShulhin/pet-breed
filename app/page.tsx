@@ -1,5 +1,5 @@
 import { fetchCatBreeds, fetchDogBreeds } from "./api";
-import { Breed } from "./types";
+import type { Breed } from "./types";
 import Breeds from "./components/Breeds";
 
 async function getBreeds() {
